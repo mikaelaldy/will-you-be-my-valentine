@@ -1,12 +1,15 @@
 // src/CountdownPage.tsx
 "use client";
-import React, { useState, useEffect } from "react";
+
+import { useState, useEffect } from "react";
+
+
 import './CountdownPage.css'; // Import CSS for countdown styles
 
 const targetDateJakarta = new Date();
 targetDateJakarta.setMonth(1); // February (Month is 0-indexed, so 1 is Feb)
-targetDateJakarta.setDate(12);
-targetDateJakarta.setHours(0, 16, 9, 0); // Set time to midnight Jakarta Time
+targetDateJakarta.setDate(14);
+targetDateJakarta.setHours(0, 0, 0, 0); // Set time to midnight Jakarta Time
 
 function calculateTimeRemaining() {
     const now = new Date().getTime();
