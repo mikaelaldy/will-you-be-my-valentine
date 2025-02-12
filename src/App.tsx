@@ -1,7 +1,8 @@
+// src/App.tsx
 "use client";
 import { useState } from "react";
 
-export default function Page() {
+        export default function Page() { // Keep the component name as Page if you prefer
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
   const yesButtonSize = noCount * 20 + 16;
@@ -66,4 +67,4 @@ export default function Page() {
       )}
     </div>
   );
-}
+        }
