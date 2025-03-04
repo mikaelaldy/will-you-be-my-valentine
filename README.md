@@ -2,10 +2,9 @@
 
 # Demo
 
-valentine countdown: secret.mikascend.xyz
+Valentine Countdown: [secret.mikascend.xyz](https://secret.mikascend.xyz)
 
-WYBMV: valentine.mikascend.xyz
-
+Will You Be My Valentine?: [valentine.mikascend.xyz](https://valentine.mikascend.xyz)
 # Description
 
 This is a fun project for valentines day to bring smile on face of your special person!!
