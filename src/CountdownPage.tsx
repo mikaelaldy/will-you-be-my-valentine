@@ -8,8 +8,8 @@ import './CountdownPage.css'; // Import CSS for countdown styles
 
 const targetDateJakarta = new Date();
 targetDateJakarta.setMonth(1); // February (Month is 0-indexed, so 1 is Feb)
-targetDateJakarta.setDate(14);
-targetDateJakarta.setHours(0, 0, 0, 0); // Set time to midnight Jakarta Time
+targetDateJakarta.setDate(13);
+targetDateJakarta.setHours(0, 23, 0, 0); // Set time to midnight Jakarta Time
 
 function calculateTimeRemaining() {
     const now = new Date().getTime();
